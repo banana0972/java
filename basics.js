@@ -47,3 +47,23 @@ while (c >= 0) {
     c--
 }
 
+
+let schools = ['ri', 'ejc', 'acjc']
+schools.push("tjc")
+schools.push("tmjc")
+console.log(schools)
+schools.pop()
+
+let person = {
+    name: "Tim",
+    age: 16,
+    isStudent: true
+}
+
+console.log(person["name"], person.name)
+
+function cube(x) {
+    return x**3
+}
+
+console.log(cube(3))
